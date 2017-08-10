@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background: #000000;
+    background-size: 3500px;
+}
+
+#contenedor{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contenedor div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    position: absolute;
+    border: 3px solid black;
+    background-position: -33px;
+    background-size: 275px
+}
+
+div#profile{
+    position: initial;
+    top: 0;
+    background-image: url(../images/perfil.jpg);
+    margin: 0 auto;
+}
+
+h1#pagetitle{
+    font-family: 'Acme', sans-serif;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+
+#redessociales [class^="icon-"]{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px 0px 5px 5px;
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 40px;
+    transition-duration: 250ms;
+}
+
+#redessociales [class^="icon-facebook"]:hover{
+    color: #3954A1;
+    transition-duration: 100ms;
+}
+#redessociales [class^="icon-twitter"]:hover{
+    color: #1DA1F2;
+    transition-duration: 100ms;
+}
+#redessociales [class^="icon-instagram"]:hover{
+    color: #305777;
+    transition-duration: 100ms;
+}
+#redessociales [class^="icon-gplus"]:hover{
+    color: #DB4A3C;
+    transition-duration: 100ms;
+}
+
+#contenedor p{
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+    margin: 45px auto;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    position: relative;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+#copyright{
+    transform: translateY(50%);
+}
+
+/*------------------------------------Estilos responsive------------------------------------*/
+
+@media screen and (max-width: 650px) {
+    body{
+        background-size: 2100px;
+    }
+    
+    #contenedor{
+        margin-top: 5px;
+    }
+
+    #contenedor div{
+        width: 160px;
+        height: 160px;
+        position: initial;
+        border: 1px solid black;
+        background-position: -27px;
+        background-size: 215px;
+    }
+    
+    div#profile{
+        margin: 20px auto;
+    }
+    
+    div#conocimientos{
+        margin: 80px auto;
+    }
+
+    div#proyectos{
+        margin: 90px auto;
+    }
+
+    h1#pagetitle{
+        font-size: 50px;
+        margin: 30px 10px 10px 10px;
+    }
+
+    h1.sectiontitle{
+        top: 160px;
+        font-size: 25px;
+    }
+
+    #redessociales [class^="icon-"]{
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #redessociales [class^="icon-"]:before{
+        position: relative;
+        bottom: 7px;
+    }
+
+    #perildescription p{
+        font-size: 25px;
+        margin: 0;
+    }
+
+    footer{
+        width: 100%;
+        height: 40px;
+        background: #333;
+        color: #fff;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+    }
+
+}
+
+/*@media (max-width:768px) {
+   
+}*/
