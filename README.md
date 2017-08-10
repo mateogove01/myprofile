@@ -1,13 +1,8 @@
-# SITIO WEB PERSONAL 2.0
+# PROYECTO
 
-Sitio web personal de [@Simonba97](https://instagram.com/simonba97) para una versión mejorada del anterior sitio web... Cabe resaltar que aún no está finalizado al 100%, cualquier detalle o bug encontrado se estará solucionando en los próximos días.
+Proyecto - página personal (Development by Mateo Gómez)
+-[facebook](https://facebook.com/mateogove01)
+-[twitter](https://twitter.com/mateogove01)
+-[Instagram](https://instagram.com/mateogove01)
 
-Realizado por [Simón Bustamante Alzate](https://instagram.com/simonba97)
-
-## CRÉDITOS
-- [Simón Bustamante Alzate](https://instagram.com/simonba97)
-
-## LICENCIA 
-
-[MIT](https://opensource.org/licenses/MIT)
-
+## En desarrollo...
